@@ -1,0 +1,866 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="content-language" content="en" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<base href="https://rubinot.com/" />
+	<title>404 Not Found - RubinOT</title>
+	<meta name="description" content="Tibia is a free massive multiplayer online role playing game (MMORPG)." />
+	<meta name="keywords" content="free online game, free multiplayer game, ots, open tibia server, myaac, wodzaac" />
+	<meta name="generator" content="MyAAC" />
+	<link rel="stylesheet" type="text/css" href="https://rubinot.com/tools/css/messages.css" />
+	<script type="text/javascript" src="https://rubinot.com/tools/js/jquery.min.js"></script>
+	<noscript>
+		<div class="warning" style="text-align: center; font-size: 14px;">Your browser does not support JavaScript or its disabled!<br/>
+			Please turn it on, or be aware that some features on this website will not work correctly.</div>
+	</noscript>
+	<link rel="shortcut icon" href="templates/myaac/images/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="templates/myaac/images/favicon.ico" type="image/x-icon" />
+	<link href="templates/myaac/basic.css?v=1.19" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" src="tools/basic.js"></script>
+	<script type="text/javascript" src="templates/myaac/ticker.js"></script>
+	<script id="twitter-wjs" src="templates/myaac/js/twitter.js"></script>
+	<script id="facebook-jssdk" async src="https://connect.facebook.net/en_US/all.js"></script>
+
+	<link href="templates/myaac/css/facebook.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Freckle+Face&amp;family=Langar&amp;family=Luckiest+Guy&amp;family=New+Rocker&amp;family=Pacifico&amp;family=Permanent+Marker&amp;family=Zen+Dots&amp;display=swap" rel="stylesheet">
+
+	<link href="templates/myaac/css/Toast.min.css" rel="stylesheet" type="text/css">
+	<script src="templates/myaac/js/iziToast.min.js"></script>
+	<link href="templates/myaac/css/iziModal.min.css" rel="stylesheet" type="text/css">
+
+	<script src="templates/myaac/twitch/wiix.js?v=1.19"></script>
+	<link href="templates/myaac/twitch/wiix.css?v=1.20" rel="stylesheet" type="text/css"> 
+
+	<script src="admin/bootstrap/jquery-3.6.0.min.js"></script>
+	<script src="admin/bootstrap/popper.min.js"></script>
+	<script src="admin/bootstrap/js/bootstrap.min.js"></script>
+	<link href="templates/myaac/css/bazaar.css?v=2.1" rel="stylesheet" type="text/css">
+	<link href="admin/bootstrap/bootstrap-lucasg.css" rel="stylesheet" type="text/css">
+	<meta name="facebook-domain-verification" content="jjjvqhfskp2duto5f2agxj166cgj15" />
+	
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-P99N7PX');</script>
+	<!-- End Google Tag Manager -->
+	
+	<!-- Meta Pixel Code -->
+	<script>
+	  !function(f,b,e,v,n,t,s)
+	  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	  n.queue=[];t=b.createElement(e);t.async=!0;
+	  t.src=v;s=b.getElementsByTagName(e)[0];
+	  s.parentNode.insertBefore(t,s)}(window, document,'script',
+	  'https://connect.facebook.net/en_US/fbevents.js');
+	  fbq('init', '1131610814392529');
+	  fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	  src="https://www.facebook.com/tr?id=1131610814392529&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Meta Pixel Code -->
+
+	<script src="admin/bootstrap/pace/pace.js"></script>
+	<link href="admin/bootstrap/pace/themes/white/pace-theme-flat-top.css" rel="stylesheet" />
+
+	<script>
+		function CollapseTable(a_ID)
+		{
+			$('#' + a_ID).slideToggle('slow');
+			if ($('#Indicator_' + a_ID).hasClass('CircleSymbolPlus')) {
+				$('#Indicator_' + a_ID).attr('class', 'CircleSymbolMinus');
+				$('#Indicator_' + a_ID).css('background-image', 'url(' + IMAGES + '/global/content/circle-symbol-plus.gif)');
+			} else {
+				$('#Indicator_' + a_ID).css('background-image', 'url(' + IMAGES + '/global/content/circle-symbol-minus.gif)');
+				$('#Indicator_' + a_ID).attr('class', 'CircleSymbolPlus');
+			}
+		}
+	</script>
+
+	<script type="text/javascript">
+		var menus = '';
+		var loginStatus="false";
+				var activeSubmenuItem="";
+		var IMAGES="templates/myaac/images";
+		var LINK_ACCOUNT="https://rubinot.com/";
+
+		function rowOverEffect(object) {
+			if (object.className == 'moduleRow') object.className = 'moduleRowOver';
+		}
+
+		function rowOutEffect(object) {
+			if (object.className == 'moduleRowOver') object.className = 'moduleRow';
+		}
+
+		function InitializePage() {
+		  LoadLoginBox();
+		  LoadMenu();
+		}
+
+		// initialisation of the loginbox status by the value of the variable 'loginStatus' which is provided to the HTML-document by PHP in the file 'header.inc'
+		function LoadLoginBox()
+		{
+		  if(loginStatus == "false") {
+			document.getElementById('ButtonText').style.backgroundImage = "url('" + IMAGES + "/global/buttons/mediumbutton_login.png')";
+			document.getElementById('LoginstatusText_2').style.backgroundImage = "url('" + IMAGES + "/loginbox/loginbox-font-create-account.gif')";
+			document.getElementById('LoginstatusText_2_1').style.backgroundImage = "url('" + IMAGES + "/loginbox/loginbox-font-create-account.gif')";
+			document.getElementById('LoginstatusText_2_2').style.backgroundImage = "url('" + IMAGES + "/loginbox/loginbox-font-create-account-over.gif')";
+		  } else {
+			document.getElementById('ButtonText').style.backgroundImage = "url('" + IMAGES + "/global/buttons/mediumbutton_myaccount.png')";
+			document.getElementById('LoginstatusText_2').style.backgroundImage = "url('" + IMAGES + "/loginbox/loginbox-font-logout.gif')";
+			document.getElementById('LoginstatusText_2_1').style.backgroundImage = "url('" + IMAGES + "/loginbox/loginbox-font-logout.gif')";
+			document.getElementById('LoginstatusText_2_2').style.backgroundImage = "url('" + IMAGES + "/loginbox/loginbox-font-logout-over.gif')";
+		  }
+		}
+
+		// mouse-over and click events of the loginbox
+		function MouseOverLoginBoxText(source)
+		{
+		  source.lastChild.style.visibility = "visible";
+		  source.firstChild.style.visibility = "hidden";
+		}
+		function MouseOutLoginBoxText(source)
+		{
+		  source.firstChild.style.visibility = "visible";
+		  source.lastChild.style.visibility = "hidden";
+		}
+		function MouseOverWebshopButton(source){
+			if (source.firstChild.style) {
+				source.firstChild.style.visibility = "visible";
+			}
+		}
+		function MouseOutWebshopButton(source){
+			if (source.firstChild.style) {
+				source.firstChild.style.visibility = "hidden";
+			}
+		}
+		function LoginButtonAction()
+		{
+		  if(loginStatus == "false") {
+			window.location = "https://rubinot.com/?account/manage";
+		  } else {
+			window.location = "https://rubinot.com/?account/manage";
+		  }
+		}
+		function LoginstatusTextAction(source) {
+		  if(loginStatus == "false") {
+			window.location = "https://rubinot.com/?account/create";
+		  } else {
+			window.location = "https://rubinot.com/?account/logout";
+		  }
+		}
+
+		var menu = [];
+		menu[0] = {};
+		var unloadhelper = false;
+
+		// load the menu and set the active submenu item by using the variable 'activeSubmenuItem'
+		function LoadMenu()
+		{
+		  document.getElementById("submenu_"+activeSubmenuItem).style.color = "white";
+		  document.getElementById("ActiveSubmenuItemIcon_"+activeSubmenuItem).style.visibility = "visible";
+		  menus = localStorage.getItem('menus');
+		  if(menus.lastIndexOf("&") === -1) {
+			  menus = "news=1&account=0&community=0&library=0&forum=0&shops=0&charactertrade=0&";
+		  }
+		  FillMenuArray();
+		  InitializeMenu();
+		}
+
+		function SaveMenu()
+		{
+		  if(unloadhelper == false) {
+			SaveMenuArray();
+			unloadhelper = true;
+		  }
+		}
+
+		// store the values of the variable 'self.name' in the array menu
+		function FillMenuArray()
+		{
+			while(menus.length > 0 ){
+				var mark1 = menus.indexOf("=");
+				var mark2 = menus.indexOf("&");
+				var menuItemName = menus.substr(0, mark1);
+				menu[0][menuItemName] = menus.substring(mark1 + 1, mark2);
+				menus = menus.substr(mark2 + 1, menus.length);
+			}
+		}
+
+		// hide or show the corresponding submenus
+		function InitializeMenu()
+		{
+		  for(menuItemName in menu[0]) {
+			if(menu[0][menuItemName] == "0") {
+			  document.getElementById(menuItemName+"_Submenu").style.visibility = "hidden";
+			  document.getElementById(menuItemName+"_Submenu").style.display = "none";
+			  document.getElementById(menuItemName+"_Lights").style.visibility = "visible";
+			  document.getElementById(menuItemName+"_Extend").style.backgroundImage = "url(" + IMAGES + "/general/plus.gif)";
+			}
+			else {
+			  document.getElementById(menuItemName+"_Submenu").style.visibility = "visible";
+			  document.getElementById(menuItemName+"_Submenu").style.display = "block";
+			  document.getElementById(menuItemName+"_Lights").style.visibility = "hidden";
+			  document.getElementById(menuItemName+"_Extend").style.backgroundImage = "url(" + IMAGES + "/general/minus.gif)";
+			}
+		  }
+		}
+
+
+		function SaveMenuArray()
+		{
+			var stringSlices = "";
+			var temp = "";
+
+			for(menuItemName in menu[0]) {
+				stringSlices = menuItemName + "=" + menu[0][menuItemName] + "&";
+				temp = temp + stringSlices;
+			}
+
+			localStorage.setItem('menus', temp);
+		}
+
+		// onClick open or close submenus
+		function MenuItemAction(sourceId)
+		{
+		  if(menu[0][sourceId] == 1) {
+			CloseMenuItem(sourceId);
+		  }
+		  else {
+			OpenMenuItem(sourceId);
+		  }
+		}
+		function OpenMenuItem(sourceId)
+		{
+		  menu[0][sourceId] = 1;
+		  document.getElementById(sourceId + "_Submenu").style.visibility = "visible";
+		  document.getElementById(sourceId + "_Extend").style.backgroundImage = "url(" + IMAGES + "global/general/minus.gif)";
+		  document.getElementById(sourceId + "_Lights").style.visibility = "hidden";
+		  $('#'+sourceId+'_Submenu').slideDown('slow');
+		  //document.getElementById(sourceId+"_Submenu").style.visibility = "visible";
+		  //document.getElementById(sourceId+"_Submenu").style.display = "block";
+		  //document.getElementById(sourceId+"_Lights").style.visibility = "hidden";
+		  document.getElementById(sourceId+"_Extend").style.backgroundImage = "url(" + IMAGES + "/general/minus.gif)";
+		}
+		function CloseMenuItem(sourceId)
+		{
+		  menu[0][sourceId] = 0;
+		  document.getElementById(sourceId + "_Lights").style.visibility = "visible";
+		  document.getElementById(sourceId + "_Extend").style.backgroundImage = "url(" + IMAGES + "global/general/plus.gif)";
+		  $('#'+sourceId+'_Submenu').slideUp('fast', function () {
+		  	document.getElementById(sourceId + "_Submenu").style.visibility = "hidden";
+		  });
+		  //document.getElementById(sourceId+"_Submenu").style.visibility = "hidden";
+		  //document.getElementById(sourceId+"_Submenu").style.display = "none";
+		  //document.getElementById(sourceId+"_Lights").style.visibility = "visible";
+		  document.getElementById(sourceId+"_Extend").style.backgroundImage = "url(" + IMAGES + "/general/plus.gif)";
+		}
+
+		// mouse-over effects of menubuttons and submenuitems
+function MouseOverMenuItem(source) {
+    if(source.firstChild.style){
+        source.firstChild.style.visibility = "visible";
+    }
+}
+
+function MouseOutMenuItem(source) {
+    if(source.firstChild.style){
+        source.firstChild.style.visibility = "hidden";
+    }
+}
+
+function MouseOverSubmenuItem(source) {
+    if(source.style){
+        source.style.backgroundColor = "#14433F";
+    }
+}
+
+function MouseOutSubmenuItem(source) {
+    if(source.style){
+        source.style.backgroundColor = "#0D2E2B";
+    }
+}
+	</script>
+	</head>
+<body onBeforeUnLoad="SaveMenu();" onUnload="SaveMenu();" style="background-image:url(templates/myaac/images/header/background.jpg);
+  background-attachment: fixed; 
+  background-repeat: repeat;
+  background-size: cover">
+		  <div id="top"></div>
+  <div id="ArtworkHelper">
+    <div id="Bodycontainer">
+      <div id="ContentRow">
+        <div id="MenuColumn">
+          <div id="LeftArtwork">
+            <img id="TibiaLogoArtworkTop" src="templates/myaac/images/header/tibia-logo-artwork-top.png" onClick="window.location = 'https://rubinot.com/?news';" alt="logoartwork" />
+          </div>
+
+  <div id="Loginbox" >
+    <div id="LoginTop" style="background-image:url(templates/myaac/images/general/box-top.gif)" ></div>
+    <div id="BorderLeft" class="LoginBorder" style="background-image:url(templates/myaac/images/general/chain.gif)" ></div>
+
+
+
+    <div id="LoginButtonContainer" style="background-image:url(templates/myaac/images/loginbox/loginbox-textfield-background.gif)" >
+      <div id="LoginButton" style="background-image:url(templates/myaac/images/global/buttons/mediumbutton.gif)" >
+        <div onClick="LoginButtonAction();" onMouseOver="MouseOverBigButton(this);" onMouseOut="MouseOutBigButton(this);"><div class="Button" style="background-image:url(templates/myaac/images/global/buttons/mediumbutton-over.gif)" ></div>
+			<div id="ButtonText" style="background-image:url(templates/myaac/images/global/buttons/mediumbutton_login.png)">
+			 </div>        </div>
+      </div>
+
+    </div>
+    <div style="clear:both" ></div>
+
+    <div class="Loginstatus" style="background-image:url(templates/myaac/images/loginbox/loginbox-textfield-background.gif)" >
+      <div id="LoginstatusText_2" onClick="LoginstatusTextAction(this);" onMouseOver="MouseOverLoginBoxText(this);" onMouseOut="MouseOutLoginBoxText(this);" ><div id="LoginstatusText_2_1" class="LoginstatusText" style="background-image:url(templates/myaac/images/loginbox/loginbox-font-create-account.gif)" ></div><div id="LoginstatusText_2_2" class="LoginstatusText" style="background-image:url(templates/myaac/images/loginbox/loginbox-font-create-account-over.gif)" ></div></div>
+    </div>
+
+    <div id="BorderRight" class="LoginBorder" style="background-image:url(templates/myaac/images/general/chain.gif)" ></div>
+    <div id="LoginBottom" class="Loginstatus" style="background-image:url(templates/myaac/images/general/box-bottom.gif)" ></div>
+  </div>
+
+	<div class="SmallMenuBox" id="DownloadBox">
+		<div class="SmallBoxTop" style="background-image:url(templates/myaac/images/global/general/box-top.gif)"></div>
+		<div class="SmallBoxBorder" style="background-image:url(templates/myaac/images/global/general/chain.gif);"></div>
+		<div class="SmallBoxButtonContainer" style="background-image:url(templates/myaac/images/global/loginbox/loginbox-textfield-background.gif)">
+			<a href="?downloads">
+			<div id="PlayNowContainer">
+				<div class="MediumButtonBackground" style="background-image:url(templates/myaac/images/global/buttons/mediumbutton.gif)" onmouseover="MouseOverBigButton(this);" onmouseout="MouseOutBigButton(this);"><div class="MediumButtonOver" style="background-image: url(templates/myaac/images/global/buttons/mediumbutton-over.gif); visibility: hidden;" ></div><input class="MediumButtonText" type="image" name="Download" alt="Download" src="templates/myaac/images/global/buttons/mediumbutton_download.png"></div>
+			</div>
+			</a>
+		</div>
+	<div class="SmallBoxBorder BorderRight" style="background-image:url(templates/myaac/images/global/general/chain.gif);"></div>
+	<div class="Loginstatus SmallBoxBottom" style="background-image:url(templates/myaac/images/global/general/box-bottom.gif);"></div>
+</div>
+
+<div-- id='Menu'>
+<div id='MenuTop' style='background-image:url(templates/myaac/images/general/box-top.gif);'></div>
+
+<div id='news' class='menuitem'>
+	<span onClick="MenuItemAction('news')">
+		<div class='MenuButton' style='background-image:url(templates/myaac/images/menu/button-background.gif);'>
+			<div onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div class='Button' style='background-image:url(templates/myaac/images/menu/button-background-over.gif);'></div>
+				<span id='news_Lights' class='Lights'>
+					<div class='light_lu' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ld' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ru' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+				</span>
+				<div id='news_Icon' class='Icon' style='background-image:url(templates/myaac/images/menu/icon-news.gif);'></div>
+				<div id='news_Label' class='Label' style='background-image:url(templates/myaac/images/menu/label-news.gif);'></div>
+				<div id='news_Extend' class='Extend' style='background-image:url(templates/myaac/images/general/plus.gif);'></div>
+			</div>
+		</div>
+	</span>
+	<div id='news_Submenu' class='Submenu'>
+				<a href='https://rubinot.com/?news'>
+				<div id='submenu_news' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_news' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Latest News</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?auth'>
+				<div id='submenu_auth' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffff00;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_auth' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffff00;">Token (2FA)</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+				</div>
+	</div>
+	<div id='library' class='menuitem'>
+	<span onClick="MenuItemAction('library')">
+		<div class='MenuButton' style='background-image:url(templates/myaac/images/menu/button-background.gif);'>
+			<div onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div class='Button' style='background-image:url(templates/myaac/images/menu/button-background-over.gif);'></div>
+				<span id='library_Lights' class='Lights'>
+					<div class='light_lu' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ld' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ru' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+				</span>
+				<div id='library_Icon' class='Icon' style='background-image:url(templates/myaac/images/menu/icon-library.gif);'></div>
+				<div id='library_Label' class='Label' style='background-image:url(templates/myaac/images/menu/label-library.gif);'></div>
+				<div id='library_Extend' class='Extend' style='background-image:url(templates/myaac/images/general/plus.gif);'></div>
+			</div>
+		</div>
+	</span>
+	<div id='library_Submenu' class='Submenu'>
+				<a href='https://rubinot.com/?serverInfo'>
+				<div id='submenu_serverInfo' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_serverInfo' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Server Info</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?raids'>
+				<div id='submenu_raids' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_raids' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Raid Calendar</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?loyalty'>
+				<div id='submenu_loyalty' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ff0000;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_loyalty' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ff0000;">VIP & Loyalty</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+				</div>
+	</div>
+	<div id='community' class='menuitem'>
+	<span onClick="MenuItemAction('community')">
+		<div class='MenuButton' style='background-image:url(templates/myaac/images/menu/button-background.gif);'>
+			<div onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div class='Button' style='background-image:url(templates/myaac/images/menu/button-background-over.gif);'></div>
+				<span id='community_Lights' class='Lights'>
+					<div class='light_lu' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ld' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ru' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+				</span>
+				<div id='community_Icon' class='Icon' style='background-image:url(templates/myaac/images/menu/icon-community.gif);'></div>
+				<div id='community_Label' class='Label' style='background-image:url(templates/myaac/images/menu/label-community.gif);'></div>
+				<div id='community_Extend' class='Extend' style='background-image:url(templates/myaac/images/general/plus.gif);'></div>
+			</div>
+		</div>
+	</span>
+	<div id='community_Submenu' class='Submenu'>
+				<a href='https://rubinot.com/?characters'>
+				<div id='submenu_characters' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_characters' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Characters</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?highscores'>
+				<div id='submenu_highscores' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_highscores' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Highscores</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?lastkills'>
+				<div id='submenu_lastkills' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_lastkills' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Last Deaths</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?houses'>
+				<div id='submenu_houses' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_houses' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Houses</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?guilds'>
+				<div id='submenu_guilds' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_guilds' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Guilds</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?guildwars'>
+				<div id='submenu_guildwars' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_guildwars' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Guild War</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?bans'>
+				<div id='submenu_bans' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_bans' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Banishments</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+				</div>
+	</div>
+	<div id='account' class='menuitem'>
+	<span onClick="MenuItemAction('account')">
+		<div class='MenuButton' style='background-image:url(templates/myaac/images/menu/button-background.gif);'>
+			<div onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div class='Button' style='background-image:url(templates/myaac/images/menu/button-background-over.gif);'></div>
+				<span id='account_Lights' class='Lights'>
+					<div class='light_lu' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ld' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ru' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+				</span>
+				<div id='account_Icon' class='Icon' style='background-image:url(templates/myaac/images/menu/icon-account.gif);'></div>
+				<div id='account_Label' class='Label' style='background-image:url(templates/myaac/images/menu/label-account.gif);'></div>
+				<div id='account_Extend' class='Extend' style='background-image:url(templates/myaac/images/general/plus.gif);'></div>
+			</div>
+		</div>
+	</span>
+	<div id='account_Submenu' class='Submenu'>
+				<a href='https://rubinot.com/?account/manage'>
+				<div id='submenu_accountmanage' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_accountmanage' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Account Management</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?account/create'>
+				<div id='submenu_accountcreate' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_accountcreate' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Create Account</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?account/lost'>
+				<div id='submenu_accountlost' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_accountlost' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Lost Account</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+				</div>
+	</div>
+	<div id='custom' class='menuitem'>
+	<span onClick="MenuItemAction('custom')">
+		<div class='MenuButton' style='background-image:url(templates/myaac/images/menu/button-background.gif);'>
+			<div onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div class='Button' style='background-image:url(templates/myaac/images/menu/button-background-over.gif);'></div>
+				<span id='custom_Lights' class='Lights'>
+					<div class='light_lu' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ld' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ru' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+				</span>
+				<div id='custom_Icon' class='Icon' style='background-image:url(templates/myaac/images/menu/icon-custom.gif);'></div>
+				<div id='custom_Label' class='Label' style='background-image:url(templates/myaac/images/menu/label-custom.gif);'></div>
+				<div id='custom_Extend' class='Extend' style='background-image:url(templates/myaac/images/general/plus.gif);'></div>
+			</div>
+		</div>
+	</span>
+	<div id='custom_Submenu' class='Submenu'>
+				<a href='https://rubinot.com/?roulette'>
+				<div id='submenu_roulette' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffff00;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_roulette' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffff00;">Roulette System</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?customItems'>
+				<div id='submenu_customItems' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffff00;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_customItems' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffff00;">Items Custom</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+				</div>
+	</div>
+	<div id='team' class='menuitem'>
+	<span onClick="MenuItemAction('team')">
+		<div class='MenuButton' style='background-image:url(templates/myaac/images/menu/button-background.gif);'>
+			<div onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div class='Button' style='background-image:url(templates/myaac/images/menu/button-background-over.gif);'></div>
+				<span id='team_Lights' class='Lights'>
+					<div class='light_lu' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ld' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ru' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+				</span>
+				<div id='team_Icon' class='Icon' style='background-image:url(templates/myaac/images/menu/icon-team.gif);'></div>
+				<div id='team_Label' class='Label' style='background-image:url(templates/myaac/images/menu/label-team.gif);'></div>
+				<div id='team_Extend' class='Extend' style='background-image:url(templates/myaac/images/general/plus.gif);'></div>
+			</div>
+		</div>
+	</span>
+	<div id='team_Submenu' class='Submenu'>
+				<a href='https://rubinot.com/?rules'>
+				<div id='submenu_rules' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ff0000;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_rules' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ff0000;">Rules</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?team'>
+				<div id='submenu_team' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_team' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Staff</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+				</div>
+	</div>
+	<div id='shops' class='menuitem'>
+	<span onClick="MenuItemAction('shops')">
+		<div class='MenuButton' style='background-image:url(templates/myaac/images/menu/button-background.gif);'>
+			<div onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div class='Button' style='background-image:url(templates/myaac/images/menu/button-background-over.gif);'></div>
+				<span id='shops_Lights' class='Lights'>
+					<div class='light_lu' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ld' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+					<div class='light_ru' style='background-image:url(templates/myaac/images/menu/green-light.gif);'></div>
+				</span>
+				<div id='shops_Icon' class='Icon' style='background-image:url(templates/myaac/images/menu/icon-shops.gif);'></div>
+				<div id='shops_Label' class='Label' style='background-image:url(templates/myaac/images/menu/label-shops.gif);'></div>
+				<div id='shops_Extend' class='Extend' style='background-image:url(templates/myaac/images/general/plus.gif);'></div>
+			</div>
+		</div>
+	</span>
+	<div id='shops_Submenu' class='Submenu'>
+				<a href='https://rubinot.com/?points'>
+				<div id='submenu_points' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ffffff;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_points' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ffffff;">Donate</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+						<a href='https://rubinot.com/?pointsTC'>
+				<div id='submenu_pointsTC' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)' style="color: #ff0000;">
+					<div class='LeftChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_pointsTC' class='ActiveSubmenuItemIcon' style='background-image:url(templates/myaac/images/menu/icon-activesubmenu.gif);'></div>
+					<div class='SubmenuitemLabel' style="color: #ff0000;">Donate TC</div>
+					<div class='RightChain' style='background-image:url(templates/myaac/images/general/chain.gif);'></div>
+				</div>
+			</a>
+				</div>
+			<div id='MenuBottom' style='background-image:url(templates/myaac/images/general/box-bottom.gif);'></div>
+	</div>
+			<script type="text/javascript">
+            InitializePage();
+        </script>
+        </div>
+
+
+
+        <div id="ContentColumn">
+
+
+
+          <div class="Content">
+<div class="Box">
+	<div class="Corner-tl" style="background-image:url(templates/myaac/images/global/content/corner-tl.gif);"></div>
+	<div class="Corner-tr" style="background-image:url(templates/myaac/images/global/content/corner-tr.gif);"></div>
+	<div class="Border_1" style="background-image:url(templates/myaac/images/global/content/border-1.gif);"></div>
+	<div class="BorderTitleText" style="background-image:url(templates/myaac/images/global/content/newsheadline_background.png); height: 28px;">
+		<div class="InfoBar">
+				<img class="InfoBarBigLogo" src="templates/myaac/images/global/header/icon-discord.png">
+				<span class="InfoBarNumbers">
+					<a class="InfoBarLinks" href="https://discord.gg/rubini" target="new"><span class="InfoBarSmallElement">Join Discord</span></a>
+				</span>
+				<img class="InfoBarBigLogo" src="templates/myaac/images/global/header/icon-download.png">
+				<span class="InfoBarNumbers">
+					<a class="InfoBarLinks" href="?downloads"><span class="InfoBarSmallElement">Download</span></a>
+				</span>
+				<span style="float: right; margin-top: -2px;">
+				<img class="InfoBarBigLogo" src="templates/myaac/images/global/header/icon-players-online.png">
+				<span class="InfoBarNumbers">
+					<span class="InfoBarSmallElement">
+						<a class="InfoBarLinks" href="?online">
+						2537 Players Online						</a>
+					</span>
+				</span>
+<a data-bs-toggle="collapse" href="#statusbar" role="button" aria-expanded="false" aria-controls="statusbar">
+<img src="templates/myaac/images/global/content/top-to-back.gif" class="InfoBarBigLogo">
+</a>
+</span>
+
+		</div>
+	</div>
+	<!-- COLLAPSE STATUS BAR -->
+<div class="collapse" id="statusbar" style="background-color: #d4c0a1;">
+<table class="Table3" cellpadding="0" cellspacing="0" style="width: 100%;">
+<tbody><tr>
+<td>
+<div class="InnerTableContainer" style="display: flex; flex-wrap: wrap; font-family: Verdana;">
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<!-- COLLAPSE STATUS BAR -->
+	<div class="Border_1" style="background-image:url(templates/myaac/images/global/content/border-1.gif);"></div>
+	<div class="CornerWrapper-b">
+		<div class="Corner-bl" style="background-image:url(templates/myaac/images/global/content/corner-bl.gif);"></div>
+	</div>
+	<div class="CornerWrapper-b">
+		<div class="Corner-br" style="background-image:url(templates/myaac/images/global/content/corner-br.gif);"></div>
+	</div>
+</div>
+<div id="ContentHelper">
+  <div id="account/createsubtopic=imagebuilder&image_refresher='.rand(1,99999).'" class="Box">
+    <div class="Corner-tl" style="background-image:url(templates/myaac/images/content/corner-tl.gif);"></div>
+    <div class="Corner-tr" style="background-image:url(templates/myaac/images/content/corner-tr.gif);"></div>
+    <div class="Border_1" style="background-image:url(templates/myaac/images/content/border-1.gif);"></div>
+    <div class="BorderTitleText" style="background-image:url(templates/myaac/images/content/title-background-green1.gif);"></div>
+	<img class="Title" src="templates/myaac/headline.php?t=404 Not Found" alt="Contentbox headline" />
+    <div class="Border_2">
+      <div class="Border_3">
+		<div class="BoxContent" style="background-image:url(templates/myaac/images/content/scroll.gif);">
+
+<!-- <div id="defaultCountdownParent">Server starts in: <div id="defaultCountdown"></div></div><br/> -->
+<script type="text/javascript">
+function startAlert()
+{
+	alert('Server just started!');
+}
+
+function highlightLast(periods)
+{
+	if ($.countdown.periodsToSeconds(periods) === 10) {
+		$(this).addClass('highlight');
+	}
+}
+$(function () {
+	let countUntil = -610888;
+	const $defaultCountdown = $('#defaultCountdown');
+
+	$defaultCountdown.countdown(
+		{
+			until: countUntil,
+			expiryText: 'Server just started!',
+			onExpiry: startAlert,
+			onTick: highlightLast
+		}
+	);
+
+	if(countUntil <= 0) {
+		$defaultCountdown.html('Server already started!');
+	}
+});
+</script>
+
+<h1>Not Found</h1>
+<p>The requested URL /?account/create?subtopic=imagebuilder&image_refresher='.rand(1,99999).' was not found on this server.</p>
+		</div>
+      </div>
+    </div>
+    <div class="Border_1" style="background-image:url(templates/myaac/images/content/border-1.gif);"></div>
+
+    <div class="CornerWrapper-b"><div class="Corner-bl" style="background-image:url(templates/myaac/images/content/corner-bl.gif);"></div></div>
+    <div class="CornerWrapper-b"><div class="Corner-br" style="background-image:url(templates/myaac/images/content/corner-br.gif);"></div></div>
+  </div>
+           </div>
+          </div>
+          <div id="Footer"><br/>Currently there are 71 visitors.<br/>Page has been viewed 46096182 times.<br/><br/>D'FATO GAMES &copy; 2023. All rights reserved.<br/>Powered by MyAAC<br/>Layout by CipSoft GmbH.</div>
+        </div>
+
+        <div id="ThemeboxesColumn">
+          <div id="RightArtwork">
+			<img id="Monster" title="Today's boosted creature: Midnight Spawn" src="./AnimatedOutfits/outfit.php?id=315" alt="Boosted Creature">
+<img id="Boss" title="Today's boosted boss: unaz the mean" src="./AnimatedOutfits/outfit.php?id=1268&amp;addons=1&amp;body=95" alt="Boosted Boss">                        
+<img id="Pedestal" src="templates/myaac/images/global/header/pedestal.png" alt="Monster Pedestal">        </div>
+
+        <div id="Themeboxes">
+			<div class="Themebox" style="background-image:url(templates/myaac/images/themeboxes/premium/themebox.png); height: 204px;">
+  <div id="PremiumBoxDecor" style="background-image:url(templates/myaac/images/themeboxes/premium/coin_animation.gif);"></div>
+  <div id="PremiumBoxBg" style="background-image:url(templates/myaac/images/themeboxes/premium/coins_decoration.png);"></div>
+  <div id="PremiumBoxOverlay" style="background-image:url(templates/myaac/images/themeboxes/premium/type_overlay.png);">
+    <p id="PremiumBoxOverlayText">Buy Epic Decoration!</p>
+  </div>
+  <div id="PremiumBoxButton">
+    <form action="?points" method="post" style="padding:0px;margin:0px;">
+      <div class="BigButton" style="background-image:url(templates/myaac/images/global/buttons/button.png); width: 142px; height: 34px;"><div onmouseover="MouseOverBigButton(this);" onmouseout="MouseOutBigButton(this);"><div class="BigButtonOver" style="background-image: url(templates/myaac/images/global/buttons/button_hover.png); visibility: hidden;"></div><input class="BigButtonText" style="width: 142px; height: 34px;" type="submit" value="Get Tibia Coins"></div></div>
+    </form>
+  </div>
+  <div id="PremiumBoxButtonDecor" style="background-image:url(templates/myaac/images/themeboxes/premium/button_tibia_coins.png);"></div>
+</div>
+				<div id="NetworksBox" class="Themebox" style="background-image:url(templates/myaac;">
+  <img id="ScreenshotContent" class="ThemeboxContent" ;="" src="templates/myaac/images/global/themeboxes/networks/networksbox.png" alt="Discord">
+  <a href="https://discord.gg/rubini" target="_blanck">
+    <div id="PremiumBoxButton2">
+      <div class="WebshopButton" style="background-image:url(templates/myaac/images/global/buttons/button.png)">
+        <div onmouseover="MouseOverWebshopButton(this);" onmouseout="MouseOutWebshopButton(this);">
+          <div class="WebshopButtonOver" style="background-image:url(templates/myaac/images/global/buttons/button_hover.png); visibility: hidden;"></div>
+          <input class="WebshopButtonText" type="image" name="Get Coins" alt="Get Coins" src="templates/myaac/images/global/buttons/discord.png">
+        </div>
+      </div>
+    </div>
+  </a>
+</div>					<script src="templates/myaac/js/ouibounce.min.js"></script>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+		<style>
+.scrollToTop {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+  z-index: 50000;
+}
+.scrollToTop:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+<script>
+	$(document).ready(function(){
+		//Check to see if the window is top if not then display button
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 100) {
+				$('.scrollToTop').fadeIn();
+			} else {
+				$('.scrollToTop').fadeOut();
+			}
+		});
+		//Click event to scroll to top
+		$('.scrollToTop').click(function(){
+			$('html, body').animate({scrollTop : 0},800);
+			return false;
+		});
+	});
+</script>
+<script>
+	$(document).ready(function(){
+		//Check to see if the window is top if not then display button
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 100) {
+				$('.TopButton').fadeIn();
+			}
+		});
+		//Click event to scroll to top
+		$('.TopButton').click(function(){
+			$('html, body').animate({scrollTop : 0},800);
+			return false;
+		});
+	});
+</script>
+<div class="scrollToTop" style="background: url(templates/myaac/images/global/content/top.png) no-repeat 0 0;"></div>
+
+<script src="templates/myaac/js/generic.js"></script>
+<div id="HelperDivContainer" style="background-image: url(templates/myaac/images/global/content/scroll.gif);">
+	<div class="HelperDivArrow" style="background-image: url(templates/myaac/images/global/content/helper-div-arrow.png);"></div>
+	<div id="HelperDivHeadline"></div>
+	<div id="HelperDivText"></div>
+	<center><img class="Ornament" src="templates/myaac/images/global/content/ornament.gif"></center><br>
+</div>
+
+
+
+<script>(function(){var js = "window['__CF$cv$params']={r:'7bfc15247f430307',m:'YwgWMExwfyVOwZ8pTbEYBAwj0yv4yyJvuu30Jb5aLTI-1682818888-0-AYASll7n3UEq5G2C2zVwLLAPIfROzB819Mv49dbH0HpH',u:'/cdn-cgi/challenge-platform/h/g'};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
+
