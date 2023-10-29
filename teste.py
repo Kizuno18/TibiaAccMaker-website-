@@ -34,14 +34,14 @@ def run_task():
 
             charCount = len(charSet) # Calcula o número de personagens únicos
 
-            if len(charSet) > 0:
+            if charSet:
                 avgTime = totalTime / charCount
                 minTime = round(avgTime/60, 2)
-                
+
                 print("                         [ALL TIME INFO]")
                 print("Média de tempo online: {} minutos".format(minTime))
                 print("Crystal coins: {}cc".format(ccTotal))
-                print("Chars logados: {}".format(charCount))                                 
+                print("Chars logados: {}".format(charCount))
             else:
                 print("Nenhum personagem encontrado.")
                 if (ccTotal >= 100):                    
@@ -49,6 +49,7 @@ def run_task():
                 else:
                  print("Crystal coins: {}cc".format(ccTotal))                 
                 print("Chars logados: {}".format(charCount))
+
 
 
     async def main():
@@ -80,7 +81,11 @@ def run_task():
                     soup = BeautifulSoup(content, 'html.parser')
                     img_tag = soup.find('td', {'colspan': '2'}).find('img')
                     img_url = img_tag['src']
-                    img_response = await session.get('https://rubinot.com/' + img_url, proxy=proxy_url, proxy_auth=proxy_auth)
+                    img_response = await session.get(
+                        f'https://rubinot.com/{img_url}',
+                        proxy=proxy_url,
+                        proxy_auth=proxy_auth,
+                    )
                     img_data = await img_response.read()
 
                     img = Image.open(io.BytesIO(img_data))
@@ -120,7 +125,7 @@ def run_task():
             try:                    
                 await genStats()
                 print("[Login]: "+form_data['name']+"\n")
-                
+
                 return_code = os.system(runDir+'\RuHaOT.exe')  
                 await main()
             except:
@@ -130,7 +135,7 @@ def run_task():
 
 if __name__ == '__main__':
     processes = []
-    for i in range(5):
+    for _ in range(5):
         p = multiprocessing.Process(target=run_task)
         processes.append(p)
         p.start()
